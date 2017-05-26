@@ -1,0 +1,15 @@
+li{ list-style-type: none; }
+
+#trip, #see-reservations-by-email, #reservations { display: none; }
+
+#trips li div {
+  margin: 2%;
+  background-color: blue;
+  text-align: center;
+  border-radius: 5%;
+  height: 90%;
+}
+
+#trips-by-continent li, #trips-by-budget li{
+  display: inline-block;
+}
